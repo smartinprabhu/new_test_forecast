@@ -1,0 +1,191 @@
+2025-09-22 08:06:46,353 - __main__ - INFO - Starting Enhanced Agentic Chatbot...
+2025-09-22 08:06:46,353 - __main__ - INFO - Gemini API key configured successfully
+2025-09-22 08:06:48,565 - __main__ - INFO - Forecasting service integration available
+2025-09-22 08:06:48,565 - __main__ - INFO - Starting FastAPI server on http://localhost:8001
+2025-09-22 08:06:48,565 - __main__ - INFO - API documentation available at http://localhost:8001/docs
+2025-09-22 08:06:48,565 - __main__ - INFO - WebSocket endpoint available at ws://localhost:8001/ws/{session_id}
+2025-09-22 08:10:06,422 - __main__ - INFO - Starting Enhanced Agentic Chatbot...
+2025-09-22 08:10:06,422 - __main__ - INFO - Gemini API key configured successfully
+2025-09-22 08:10:08,223 - __main__ - INFO - Forecasting service integration available
+2025-09-22 08:10:08,223 - __main__ - INFO - Starting FastAPI server on http://localhost:8001
+2025-09-22 08:10:08,223 - __main__ - INFO - API documentation available at http://localhost:8001/docs
+2025-09-22 08:10:08,223 - __main__ - INFO - WebSocket endpoint available at ws://localhost:8001/ws/{session_id}
+2025-09-22 08:10:08,315 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:25:17,014 - __main__ - INFO - Starting Enhanced Agentic Chatbot...
+2025-09-22 08:25:17,014 - __main__ - INFO - Gemini API key configured successfully
+2025-09-22 08:25:20,062 - __main__ - INFO - Forecasting service integration available
+2025-09-22 08:25:20,062 - __main__ - INFO - Starting FastAPI server on http://localhost:8001
+2025-09-22 08:25:20,062 - __main__ - INFO - API documentation available at http://localhost:8001/docs
+2025-09-22 08:25:20,062 - __main__ - INFO - WebSocket endpoint available at ws://localhost:8001/ws/{session_id}
+2025-09-22 08:25:46,378 - enhanced_chatbot.main - INFO - Processing chat message for session: test_session_123
+2025-09-22 08:25:46,512 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:25:48,454 - enhanced_chatbot.gemini_client - ERROR - Gemini API error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-09-22 08:25:48,455 - enhanced_chatbot.gemini_client - ERROR - Intent analysis error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-09-22 08:25:48,456 - enhanced_chatbot.main - INFO - Intent analysis: data_upload (confidence: 0.7)
+2025-09-22 08:25:48,540 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:25:48,760 - enhanced_chatbot.gemini_client - ERROR - Gemini API error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-09-22 08:25:48,760 - enhanced_chatbot.gemini_client - ERROR - Response generation error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-09-22 08:25:58,605 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:25:59,241 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:26:16,258 - enhanced_chatbot.main - INFO - Processing chat message for session: test_session_456
+2025-09-22 08:26:16,333 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:26:18,838 - enhanced_chatbot.gemini_client - WARNING - Failed to parse intent analysis JSON: Expecting value: line 1 column 1 (char 0)
+2025-09-22 08:26:18,839 - enhanced_chatbot.main - INFO - Intent analysis: data_upload (confidence: 0.7)
+2025-09-22 08:26:18,956 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:26:44,830 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:27:09,956 - enhanced_chatbot.main - INFO - Processing chat message for session: test_session_456
+2025-09-22 08:27:10,061 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:27:11,456 - enhanced_chatbot.gemini_client - WARNING - Failed to parse intent analysis JSON: Expecting value: line 1 column 1 (char 0)
+2025-09-22 08:27:11,457 - enhanced_chatbot.main - INFO - Intent analysis: model_training (confidence: 0.7)
+2025-09-22 08:27:11,555 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:27:24,932 - enhanced_chatbot.main - INFO - Processing chat message for session: test_session_123
+2025-09-22 08:27:25,013 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:27:26,142 - enhanced_chatbot.gemini_client - WARNING - Failed to parse intent analysis JSON: Expecting value: line 1 column 1 (char 0)
+2025-09-22 08:27:26,142 - enhanced_chatbot.main - INFO - Intent analysis: data_upload (confidence: 0.7)
+2025-09-22 08:27:26,246 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:27:26,980 - enhanced_chatbot.main - INFO - Processing chat message for session: test_session_123
+2025-09-22 08:27:27,094 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:27:28,207 - enhanced_chatbot.gemini_client - WARNING - Failed to parse intent analysis JSON: Expecting value: line 1 column 1 (char 0)
+2025-09-22 08:27:28,207 - enhanced_chatbot.main - INFO - Intent analysis: model_training (confidence: 0.7)
+2025-09-22 08:27:28,215 - enhanced_chatbot.main - INFO - Processing chat message for session: test_session_123
+2025-09-22 08:27:28,316 - watchfiles.main - INFO - 2 changes detected
+2025-09-22 08:27:29,147 - enhanced_chatbot.gemini_client - WARNING - Failed to parse intent analysis JSON: Expecting value: line 1 column 1 (char 0)
+2025-09-22 08:27:29,147 - enhanced_chatbot.main - INFO - Intent analysis: data_upload (confidence: 0.7)
+2025-09-22 08:27:29,219 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:27:30,289 - enhanced_chatbot.main - INFO - Processing chat message for session: test_session_123
+2025-09-22 08:27:30,390 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:27:31,466 - enhanced_chatbot.gemini_client - WARNING - Failed to parse intent analysis JSON: Expecting value: line 1 column 1 (char 0)
+2025-09-22 08:27:31,466 - enhanced_chatbot.main - INFO - Intent analysis: model_training (confidence: 0.7)
+2025-09-22 08:27:31,569 - watchfiles.main - INFO - 2 changes detected
+2025-09-22 08:29:59,596 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:30:01,382 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:46:29,111 - __main__ - INFO - Starting Enhanced Agentic Chatbot...
+2025-09-22 08:46:29,112 - __main__ - INFO - Gemini API key configured successfully
+2025-09-22 08:46:31,165 - __main__ - INFO - Forecasting service integration available
+2025-09-22 08:46:31,166 - __main__ - INFO - Starting FastAPI server on http://localhost:8001
+2025-09-22 08:46:31,166 - __main__ - INFO - API documentation available at http://localhost:8001/docs
+2025-09-22 08:46:31,166 - __main__ - INFO - WebSocket endpoint available at ws://localhost:8001/ws/{session_id}
+2025-09-22 08:46:44,062 - enhanced_chatbot.main - INFO - Processing chat message for session: test_intent_123
+2025-09-22 08:46:44,134 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:46:46,665 - enhanced_chatbot.main - INFO - Intent analysis: model_training (confidence: 0.95)
+2025-09-22 08:46:46,764 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:46:57,630 - enhanced_chatbot.main - INFO - Processing chat message for session: test_intent_123
+2025-09-22 08:46:57,741 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:46:58,717 - enhanced_chatbot.main - INFO - Intent analysis: preprocessing (confidence: 0.95)
+2025-09-22 08:46:58,812 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:49:14,998 - enhanced_chatbot.main - INFO - Processing chat message for session: test_enhanced_intent
+2025-09-22 08:49:15,278 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:49:17,385 - enhanced_chatbot.main - INFO - Intent analysis: model_training (confidence: 0.95)
+2025-09-22 08:49:17,489 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:49:35,512 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:49:36,142 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:50:41,453 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:50:54,572 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:51:08,821 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:51:21,800 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:51:33,527 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:51:49,798 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:52:05,263 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:52:17,467 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:52:50,205 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:52:59,618 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:53:47,644 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:53:52,561 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:54:42,178 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:54:51,775 - watchfiles.main - INFO - 1 change detected
+2025-09-22 08:55:02,656 - watchfiles.main - INFO - 1 change detected
+2025-09-22 10:21:06,711 - watchfiles.main - INFO - 1 change detected
+2025-09-22 10:21:22,472 - watchfiles.main - INFO - 1 change detected
+2025-09-22 10:21:37,934 - watchfiles.main - INFO - 1 change detected
+2025-09-22 10:40:25,042 - watchfiles.main - INFO - 2 changes detected
+2025-09-23 06:40:23,412 - __main__ - INFO - Starting Enhanced Agentic Chatbot...
+2025-09-23 06:40:23,412 - __main__ - INFO - Gemini API key configured successfully
+2025-09-23 06:40:26,489 - __main__ - INFO - Forecasting service integration available
+2025-09-23 06:40:26,491 - __main__ - INFO - Starting FastAPI server on http://localhost:8001
+2025-09-23 06:40:26,491 - __main__ - INFO - API documentation available at http://localhost:8001/docs
+2025-09-23 06:40:26,491 - __main__ - INFO - WebSocket endpoint available at ws://localhost:8001/ws/{session_id}
+2025-09-23 06:47:40,999 - watchfiles.main - INFO - 2 changes detected
+2025-09-23 06:48:30,960 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:48:33,066 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:48:40,760 - watchfiles.main - INFO - 2 changes detected
+2025-09-23 06:50:13,773 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:50:25,769 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:50:34,117 - watchfiles.main - INFO - 2 changes detected
+2025-09-23 06:51:40,874 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:51:44,894 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:51:53,769 - watchfiles.main - INFO - 2 changes detected
+2025-09-23 06:52:46,515 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:52:51,892 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:53:08,574 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:53:11,149 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:53:18,231 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:53:24,055 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:53:25,623 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:53:32,406 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:53:32,969 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:53:37,746 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:53:39,274 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:53:45,574 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:53:46,126 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:53:53,642 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:55:40,210 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:55:54,511 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:56:22,543 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:56:55,277 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:57:49,076 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:57:51,678 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:57:53,742 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:57:56,147 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:57:59,016 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:58:01,906 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:58:04,882 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:58:05,366 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:58:45,404 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:58:54,250 - watchfiles.main - INFO - 1 change detected
+2025-09-23 06:59:56,219 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:00:01,092 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:00:11,008 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:00:20,038 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:00:46,135 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:01:00,111 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:01:09,283 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:06:36,904 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:07:21,756 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:07:50,414 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:11:08,222 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:11:21,711 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:13:22,408 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:13:30,941 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:13:39,954 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:13:47,298 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:13:54,419 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:15:49,776 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:18:26,878 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:19:15,352 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:20:17,589 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:20:48,707 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:20:51,238 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:21:42,362 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:21:53,467 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:21:56,746 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:22:01,155 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:22:07,582 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:22:13,926 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:22:19,432 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:22:36,114 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:22:50,517 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:22:52,121 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:23:04,036 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:23:16,327 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:23:24,795 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:23:25,885 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:23:54,179 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:24:03,681 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:24:09,398 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:24:26,571 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:24:38,711 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:24:48,225 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:25:53,113 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:40:16,090 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:40:18,792 - watchfiles.main - INFO - 1 change detected
+2025-09-23 07:40:21,313 - watchfiles.main - INFO - 1 change detected
