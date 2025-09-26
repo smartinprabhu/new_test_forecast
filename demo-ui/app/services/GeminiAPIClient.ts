@@ -10,7 +10,7 @@ export class GeminiAPIClient {
     const apiKey = this.getApiKey()
     console.log('Initializing Gemini API with key:', apiKey.substring(0, 10) + '...')
     this.genAI = new GoogleGenerativeAI(apiKey)
-    this.model = this.genAI.getGenerativeModel({ model: 'gemini-1.5-flash' })
+    this.model = this.genAI.getGenerativeModel({ model: 'gemini-1.5-pro' })
   }
 
   private getApiKey(): string {
@@ -27,7 +27,7 @@ export class GeminiAPIClient {
     const newApiKey = this.getApiKey()
     console.log('Refreshing Gemini API with key:', newApiKey.substring(0, 10) + '...')
     this.genAI = new GoogleGenerativeAI(newApiKey)
-    this.model = this.genAI.getGenerativeModel({ model: 'gemini-1.5-flash' })
+    this.model = this.genAI.getGenerativeModel({ model: 'gemini-1.5-pro' })
   }
 
   async generateResponse(
